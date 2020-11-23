@@ -1,0 +1,55 @@
+.table-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+table {
+    border-collapse: collapse;
+}
+table tr th {
+    color: darkgreen;
+    background-color: aquamarine;
+    text-align: center;
+}
+.num {
+    text-align: right;
+}
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: covers;
+}
+strong {
+    color: red;
+}
+
+.form {
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: right;
+    position: relative;
+    top: 100px;
+}
+.form section {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+input[name="name"], input[name="email"] {
+    width: 500px;
+}
+textarea {
+    width: 500px;
+    margin-top: 10px;   
+}
+.submit {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.submit-button {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
